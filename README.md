@@ -1,10 +1,11 @@
 # Customer Sales Data Analysis and Prediction
 Analytics of a customer sales dataset. Includes data visualization and sales prediction using machine learning. <br>
 
-Dataset: [link text](https://datastudio.google.com/reporting/8d8f0ff8-b3b2-4ec2-8556-f095e695c55e 'title text')
 
 <h2> Visualization </h2>
-Visualization tool: Looker Studio (Google Data Studio)
+View Report: [link text](https://datastudio.google.com/reporting/8d8f0ff8-b3b2-4ec2-8556-f095e695c55e 'title text') <br>
+
+Tool: Looker Studio (Google Data Studio) <br>
 
 <img alt="Sample screenshot of the dashboard" src="dashboard_screenshot.png">
 
