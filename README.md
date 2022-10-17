@@ -8,6 +8,6 @@ Tool: Looker Studio (Google Data Studio) <br>
 
 <img alt="Sample screenshot of the dashboard" src="dashboard_ss.png">
 
-Prediction model: XGBoost Regressor
-Result:
-|Test R Squared value | 0.9860726072926651 |
+Prediction model: XGBoost Regressor <br>
+Result: <br>
+|Test R Squared value | 0.9860726072926651 | <br>
