@@ -12,4 +12,4 @@ Analytics of a customer sales dataset. Includes data visualization and sales pre
 Utilized relevant features to predict customer's order quantity of particular product. <br>
 <b> Prediction model:</b> XGBoost Regressor <br>
 <b> Result: </b> <br>
-|<b> Test R Squared value </b> | 0.9860726072926651 | <br>
+|<b> Test R Squared value </b> | 0.986 | <br>
