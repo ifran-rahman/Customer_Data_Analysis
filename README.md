@@ -3,7 +3,7 @@ Analytics of a customer sales dataset. Includes data visualization and sales pre
 
 
 <h2> Visualization </h2>
-View Report: [Markdown tutorial]((https://datastudio.google.com/reporting/8d8f0ff8-b3b2-4ec2-8556-f095e695c55e) <br>
+View Report: https://datastudio.google.com/reporting/8d8f0ff8-b3b2-4ec2-8556-f095e695c55e <br>
 Tool: Looker Studio (Google Data Studio) <br>
 
 <img alt="Sample screenshot of the dashboard" src="dashboard_screenshot.png">
