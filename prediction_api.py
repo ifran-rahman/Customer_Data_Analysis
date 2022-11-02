@@ -8,7 +8,7 @@ from sklearn.preprocessing import LabelEncoder
 
 
 app = Flask(__name__)
-dataset = pd.read_csv('sales_dataset.csv')
+dataset = pd.read_csv('scaled_trainset.csv')
 regressor = joblib.load("xgb_reg.sav")
 
 def process_inputs(dataset, customer_since, category,	gender,	age,	region,	state,	price,	discount_percentage):
