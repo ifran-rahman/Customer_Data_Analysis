@@ -43,16 +43,33 @@ def predict_revenue(customer_since, category,	gender, age, region, state, price,
    prediction = regressor.predict(x)
       
    return prediction
+import webbrowser
+
 
 def main():
-   #  st.title("Revenue prediction")
+
     html_temp = """
     <div style = "background-color:tomato;padding:10px">
-    <h2 style="color:white;text-align:center;">Revenue prediction</h2>
+    <h2 style="color:white;text-align:center;">Revenue prediction</h2> 
     </div>
     """
-  
     st.markdown(html_temp,unsafe_allow_html=True)
+    st.markdown("")
+    c0, c1, c2, c3, c4, c5, = st.columns(6)
+
+    dashboard = 'https://datastudio.google.com/reporting/8d8f0ff8-b3b2-4ec2-8556-f095e695c55e'
+    
+    with c0:
+
+      if st.button('Dashboard'):
+         webbrowser.open_new_tab(dashboard)
+
+    repo = 'https://github.com/ifran-rahman/Customer_Data_Analysis'
+
+    with c1:
+      if st.button('Repo'):
+         webbrowser.open_new_tab(repo)
+  
     customer_since = st.text_input("Customer Since (days)", "")
     age = st.text_input("Age","")
     
@@ -84,10 +101,6 @@ def main():
         result=predict_revenue(customer_since, category,	gender, age, region, state, price, discount_percentage)
         result = result[0]
     st.success('Estimated revenue {}'.format(result))
-    if st.button("About"):
-        st.text("Lets Laarn")
-        st.text("Built with Streamlit")
-
 
 if __name__ == '__main__':
    main()
