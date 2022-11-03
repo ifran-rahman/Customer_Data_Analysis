@@ -13,4 +13,5 @@ Utilized relevant features to predict total revenue from a particular customer. 
 <!-- <b> Prediction model:</b> XGBoost Regressor <br>
 <b> Result: </b> <br>
 |<b> Test R Squared value </b> | 0.986 | <br>
- -->
+ --> 
+ Deployed web app: https://ifran-rahman-customer-data-analysis-prediction-api-qhfvfk.streamlitapp.com/
