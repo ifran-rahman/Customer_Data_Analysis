@@ -75,7 +75,7 @@ def main():
     
     genders = dataset['Gender'].drop_duplicates()
     genders = genders.to_list()
-    gender = st.selectbox('Select state', genders)
+    gender = st.selectbox('Select gender', genders)
 
     price = st.text_input("Price","")
 
